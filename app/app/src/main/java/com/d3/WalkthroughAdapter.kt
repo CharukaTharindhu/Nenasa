@@ -1,11 +1,10 @@
-package com.nenasa.Walkthrough
+package com.d3
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 
-
-class WalkthroughAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
+class WalkthroughAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
     override fun getCount(): Int {
         return 3
     }
